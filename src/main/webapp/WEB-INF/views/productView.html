@@ -101,6 +101,8 @@
             <button type="submit" class="btn-delete">삭제</button>
         </form>
     </div>
-
+    <footer>
+        <p th:text="${'실습 수행: ' + #temporals.format(#temporals.createNow(), 'yyyy-MM-dd HH:mm:ss') + ' | 학번: 2371433 | 성명: 박나현'}"></p>
+    </footer>
 </body>
 </html>
