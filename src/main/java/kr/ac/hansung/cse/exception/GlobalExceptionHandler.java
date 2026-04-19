@@ -114,4 +114,6 @@ public class GlobalExceptionHandler {
         model.addAttribute("errorDetail", "잠시 후 다시 시도해 주세요. 문제가 지속되면 관리자에게 문의하세요.");
         return "error";
     }
+
+
 }
